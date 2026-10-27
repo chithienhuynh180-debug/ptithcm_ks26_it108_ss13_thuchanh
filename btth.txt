@@ -1,0 +1,10 @@
+﻿[Chức năng 1]
+* mkdir smartfarm-system\docs, smartfarm-system\scripts, smartfarm-system\data, smartfarm-system\backup
+* Set-Content -Path "..\.env" -Value "DB_PASSWORD=demo_123456"
+* (Get-Item "..\.env" -Force).Attributes = 'Hidden'
+[Chức năng 2]
+* New-item ./smartfarm-system/auto_report1.ps1
+* cd ./smartfarm-system/auto_report1.ps1
+
+
+* echoo
